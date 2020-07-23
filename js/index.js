@@ -3,11 +3,11 @@ const textTitle = "Dificuldade"
 
 // Tagged template string
 const title = Title `
-    color: red;
+    color: #82589F;
     ${textTitle}
-    font-size: 30px;
-    ${'Texto pequeno'}
-    ${'Outro texto'}
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    
 `
 
 root.insertAdjacentHTML('beforeend', title)
